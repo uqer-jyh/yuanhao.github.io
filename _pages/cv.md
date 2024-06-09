@@ -19,17 +19,17 @@ Work experience
   * UQ Institute for Molecular Bioscience
   * Location: Brisbane, Australia
   * Position: Research Assistant
-  * Supervisor: Raymond
+  * Supervisor: Dr. Quan Nguyen
 
 * Dec 2021 - Mar 2022 (4 mos): 
   * Elliptic Labs
   * Location: Shenzhen, China
   * Position: Intern
-  * Supervisor: Raymond
+  * Supervisor: Mr. Raymond
 
 * Apr 2021 - Aug 2021 (5 mos): 
   * Chongqing Shete Meteorological Research Institute
   * Location: Chongqing, China
   * Position: Intern
-  * Supervisor: Zhaodong Li
+  * Supervisor: Mr. Zhaodong Li
   
