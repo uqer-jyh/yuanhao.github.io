@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #7c4dff;
+  --primary-light: #b47cff;
+  --primary-dark: #651fff;
+  --background: #fafafa;
+  --paper: #ffffff;
+  --text-primary: #212121;
+  --text-secondary: #757575;
+  --accent: #e040fb;
+  --divider: rgba(0, 0, 0, 0.08);
+}
+
+[data-theme='dark'],
+.dark {
+  --primary: #b388ff;
+  --primary-light: #e7b9ff;
+  --primary-dark: #7c4dff;
+  --background: #121212;
+  --paper: #1e1e1e;
+  --text-primary: #ffffff;
+  --text-secondary: #b0b0b0;
+  --accent: #ea80fc;
+  --divider: rgba(255, 255, 255, 0.12);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-playfair), "Playfair Display", serif;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--primary-dark);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+::selection {
+  background-color: var(--primary-light);
+  color: var(--text-primary);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-light);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+.publication-item {
+  padding: 1rem;
+  margin: -1rem;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.publication-item:hover {
+  background-color: var(--divider);
+}
+
+.avatar-container {
+  position: relative;
+  display: inline-block;
+}
+
+.avatar-container::after {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  border: 2px solid var(--primary);
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.avatar-container:hover::after {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .news-date {
+    width: 64px;
+  }
+}
