@@ -150,11 +150,14 @@ export default function Home() {
               and high-throughput imaging data.
             </Typography>
             <Typography variant="body1" sx={{ lineHeight: 1.8, mt: 2 }}>
-              Prior to my PhD, I worked as a research assistant at the Institute
-              for Molecular Bioscience, The University of Queensland, and was
-              affiliated with QIMR Berghofer under the supervision of Associate
-              Professor Quan Nguyen. I also completed my postgraduate studies at
-              UQ with Dr. Nan Ye and Associate Professor Quan Nguyen.
+              Before my PhD, I worked as a research assistant at the Institute
+              for Molecular Bioscience, The University of Queensland, until
+              April 2024, and was affiliated with QIMR Berghofer under the
+              supervision of Associate Professor Quan Nguyen. I then worked at
+              the University of Newcastle in Callaghan, Australia from May to
+              June 2024 under the supervision of Professor Matt Dun OAM. I also
+              completed my postgraduate studies at UQ with Dr. Nan Ye and
+              Associate Professor Quan Nguyen.
             </Typography>
           </Box>
 

@@ -21,7 +21,14 @@ const education = [
 
 const experience = [
   {
-    period: "Jul 2023 - Aug 2024",
+    period: "May 2024 - Jun 2024",
+    role: "Research Assistant",
+    institution: "University of Newcastle",
+    location: "Callaghan, Australia",
+    supervisor: "Professor Matt Dun OAM",
+  },
+  {
+    period: "Jul 2023 - Apr 2024",
     role: "Research Assistant",
     institution: "UQ Institute for Molecular Bioscience",
     location: "Brisbane, Australia",
